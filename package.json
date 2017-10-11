@@ -1,0 +1,34 @@
+{
+  "name": "phone-number",
+  "version": "1.0.0",
+  "description": "validates phone numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhu7235/phone-number.git"
+  },
+  "keywords": [
+    "phone",
+    "validate"
+  ],
+  "author": "Jason Hu <jhu7235@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhu7235/phone-number/issues"
+  },
+  "homepage": "https://github.com/jhu7235/phone-number#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.2",
+    "jest": "^21.2.1"
+  }
+}
